@@ -273,8 +273,7 @@
     align-self: stretch;
     font-family: inherit;
     color: var(--text-color);
-
-    
+    font-size: x-small
 }
 
 .input-write::placeholder
@@ -314,6 +313,13 @@
     text-align: center;
 }
 
+@media ((min-width:100px) and (max-width: 412px)) {
+    .input-write
+    {
+        padding-left: 0.3rem;
+    }
+}
+
 @media (max-width:768px) {
     .lastText
     {
@@ -324,10 +330,10 @@
         font-size: 0.7rem;
     }
 
-    .input-write
+    /* .input-write
     {
         padding-left: 0.8rem;
-    }
+    } */
 
     .content-container
     {
