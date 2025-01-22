@@ -419,6 +419,24 @@
     }
 }
 
+@media((min-width:466px) and (max-width:600px)) {
+    .content-container {
+        padding-top: 1rem;
+       
+        max-width: 54%;
+        margin: 0 auto;
+    }
+}
+
+@media((min-width:0px) and (max-width:465px)) {
+    .content-container {
+        padding-top: 1rem;
+       
+        max-width: 70%;
+        margin: 0 auto;
+    }
+}
+
 @media (min-width: 769px) {
 
     .content-container {
